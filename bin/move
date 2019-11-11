@@ -12,5 +12,5 @@ if (response == "y" || response == "Y")
   display_board(board)
   puts "Please select a number between 1 and 9."
   response = gets.strip
-  move(response)
+  move(board, input_to_index(response))
 end
