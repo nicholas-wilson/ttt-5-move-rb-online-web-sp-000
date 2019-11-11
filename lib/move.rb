@@ -14,6 +14,3 @@ end
 def move(board, position, marker = " ")
   board[input_to_index(position)] = marker
 end
-a_board = ["X", " ", " ", " ", " ", " ", " ", " ", " "]
-move(a_board, 9, "X")
-display_board(a_board)
