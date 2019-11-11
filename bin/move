@@ -10,10 +10,7 @@ response = gets.strip
 
 if (response == "y" || response == "Y")
   display_board(board)
-  game_over = false
-  while (!game_over)
-    puts "Please select a number between 1 and 9."
-    response = gets.strip
-    move(response)
-  end
+  puts "Please select a number between 1 and 9."
+  response = gets.strip
+  move(response)
 end
