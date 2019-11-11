@@ -10,6 +10,4 @@ response = gets.strip
 
 if (response == "y" || response == "Y")
   display_board(board)
-else
-  return 0
 end
