@@ -9,3 +9,4 @@ puts "Pick a number between 1-9"
 response = gets.strip
 display_board(board)
 move(board, input_to_index(response))
+display_board(board)
