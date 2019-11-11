@@ -6,3 +6,10 @@ require_relative '../lib/move.rb'
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 puts "Would you like to play? (Y/n)"
+response = gets.strip
+
+if response.lowercase == "y"
+  display_board(board)
+else
+  return 0
+end
