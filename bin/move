@@ -8,7 +8,7 @@ puts "Welcome to Tic Tac Toe!"
 puts "Would you like to play? (Y/n)"
 response = gets.strip
 
-if response.lowercase == "y"
+if (response == "y" || response == "Y")
   display_board(board)
 else
   return 0
