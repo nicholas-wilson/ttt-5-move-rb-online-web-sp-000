@@ -14,5 +14,6 @@ end
 def move(board, position, marker = " ")
   board[input_to_index(position)] = marker
 end
-
-move([" ", " ", " ", " ", " ", " ", " ", " ", " "], 1, "X")
+a_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+move(a_board, 1, "X")
+display_board(a_board)
